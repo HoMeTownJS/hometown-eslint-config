@@ -34,10 +34,10 @@ pnpm install eslint
 Then just choose which package to use for lint according to ur project.
 
 ```bash
-pnpm install @hometown/eslint-config-ts # ts
-pnpm install @hometown/eslint-config # same as @hometown/eslint-config-ts
-pnpm install @hometown/eslint-config-vue2 # vue2
-pnpm install @hometown/eslint-config-vue3 #vue3
+pnpm install @hometownjs/eslint-config-ts # ts
+pnpm install @hometownjs/eslint-config # same as @hometownjs/eslint-config-ts
+pnpm install @hometownjs/eslint-config-vue2 # vue2
+pnpm install @hometownjs/eslint-config-vue3 #vue3
 ```
 
 #### config
