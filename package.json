@@ -30,11 +30,11 @@
     "update-version-ts": "bumpp package.json packages/ts/package.json",
     "update-version-vue2": "bumpp package.json packages/vue2/package.json",
     "update-version-vue3": "bumpp package.json packages/vue3/package.json",
-    "publish-pkg-base": "pnpm --filter @hometownjs/base publish-pkg",
-    "publish-pkg-defalut": "pnpm --filter @hometownjs/default publish-pkg",
-    "publish-pkg-ts": "pnpm --filter @hometownjs/ts publish-pkg",
-    "publish-pkg-vue2": "pnpm --filter @hometownjs/vue2 publish-pkg",
-    "publish-pkg-vue3": "pnpm --filter @hometownjs/vue3 publish-pkg",
+    "publish-pkg-base": "pnpm --filter @hometownjs/eslint-config-base publish-pkg",
+    "publish-pkg-defalut": "pnpm --filter @hometownjs/eslint-config-default publish-pkg",
+    "publish-pkg-ts": "pnpm --filter @hometownjs/eslint-config-ts publish-pkg",
+    "publish-pkg-vue2": "pnpm --filter @hometownjs/eslint-config-vue2 publish-pkg",
+    "publish-pkg-vue3": "pnpm --filter @hometownjs/eslint-config-vue3 publish-pkg",
     "release": "sh ./scripts/publish.all.sh"
   },
   "devDependencies": {
