@@ -1,0 +1,35 @@
+{
+  "name": "@hometownjs/eslint-config",
+  "version": "0.0.1",
+  "description": "HoMeTownJS's eslint config presets with prettier for TypeScript",
+  "author": {
+    "name": "HoMeTownJS",
+    "email": "hometownsocool@gmail.com",
+    "url": "https://github.com/HoMeTownJS"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/HoMeTownJS/hometown-eslint-config",
+  "repository": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config/issues"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "@hometownjs/eslint-config-base": "workspace:^0.0.1",
+    "@hometownjs/eslint-config-ts": "workspace:*",
+    "@hometownjs/eslint-config-vue2": "workspace:^0.0.1",
+    "@hometownjs/eslint-config-vue3": "workspace:^0.0.1",
+    "eslint": "8.33.0"
+  }
+}

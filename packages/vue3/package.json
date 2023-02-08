@@ -1,0 +1,35 @@
+{
+  "name": "@hometownjs/eslint-config-vue3",
+  "version": "0.0.1",
+  "description": "HoMeTownJS's eslint config presets with prettier for Vue3",
+  "author": {
+    "name": "HoMeTownJS",
+    "email": "hometownsocool@gmail.com",
+    "url": "https://github.com/HoMeTownJS"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/HoMeTownJS/hometown-eslint-config",
+  "repository": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config/issues"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "dependencies": {
+    "@hometownjs/eslint-config-ts": "workspace:*",
+    "eslint-plugin-vue": "9.9.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.33.0"
+  }
+}

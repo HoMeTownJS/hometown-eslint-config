@@ -1,0 +1,49 @@
+{
+  "name": "hometown-eslint-config",
+  "version": "0.0.1",
+  "private": true,
+  "description": "HoMeTownJS's eslint config presets with prettier",
+  "author": {
+    "name": "HoMeTownJS",
+    "email": "hometownsocool@gmail.com",
+    "url": "https://github.com/HoMeTownJS"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/HoMeTownJS/hometown-eslint-config",
+  "repository": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HoMeTownJS/hometown-eslint-config/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "lint": "eslint . --fix",
+    "commit": "hometown git-commit",
+    "cleanup": "hometown cleanup",
+    "init-git": "hometown init-git-hooks",
+    "update-version": "bumpp package.json packages/*/package.json",
+    "publish-pkg": "pnpm -r publish --access public",
+    "release": "pnpm update-version && pnpm publish-pkg"
+  },
+  "devDependencies": {
+    "@hometownjs/command": "^0.0.1",
+    "@hometownjs/eslint-config": "workspace:^0.0.1",
+    "bumpp": "8.2.1",
+    "eslint": "8.33.0",
+    "lint-staged": "^13.1.0",
+    "simple-git-hooks": "^2.8.1",
+    "typescript": "4.9.5"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm hometown git-commit-verify",
+    "pre-commit": "pnpm exec lint-staged --concurrent false"
+  },
+  "lint-staged": {
+    "*": [
+      "eslint . --fix"
+    ]
+  }
+}

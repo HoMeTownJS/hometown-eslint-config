@@ -1,0 +1,14 @@
+{
+  "name": "ts-play",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@hometownjs/eslint-config": "workspace:*",
+    "@hometownjs/eslint-config-ts": "workspace:^0.0.1",
+    "eslint": "8.33.0",
+    "typescript": "4.9.5"
+  }
+}
