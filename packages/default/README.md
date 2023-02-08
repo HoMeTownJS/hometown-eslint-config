@@ -1,7 +1,7 @@
 <p align="center">
   <img width="156px" src="https://i.ibb.co/DCSdYrY/i-va-5.png" />
 </p>
-<p align="center"><b>✨ @hometownjs/eslint-config-vue3 💥</b></p>
+<p align="center"><b>✨ @hometownjs/eslint-config 💥</b></p>
 <p align="center">HoMeTownJS's eslint config presets with prettier</p>
 <p align="center">Improve development experience.</p>
 
@@ -23,7 +23,7 @@ pnpm install eslint
 Install package.
 
 ```bash
-pnpm install @hometownjs/eslint-config-vue3
+pnpm install @hometownjs/eslint-config # same as @hometowm/eslint-config-ts
 ```
 
 #### config
@@ -32,7 +32,7 @@ Create files One of them .eslintrc.js/.eslintrc.json/.eslintrc.
 
 ```js
 module.export = {
-  extends: ['@hometownjs/eslint-config-vue3'] // eslint-config-ts || ...-vue3 || ...vue3
+  extends: ['@hometownjs/eslint-config'] // eslint-config-ts || ...-vue2 || ...vue3
 };
 ```
 

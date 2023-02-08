@@ -19,10 +19,6 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "files": [
-    "index.js",
-    "package.json"
-  ],
   "scripts": {
     "lint": "eslint . --config=index.js",
     "publish-pkg": "pnpm publish --access public"
