@@ -7,11 +7,11 @@
 
 ### Packages📦
 
-- 🚙 [@hometownjs/eslint-config](https://github.com/HoMeTownJS/hometown-eslint-config/packages/default)
-- 🚐 [@hometownjs/eslint-config-base](https://github.com/HoMeTownJS/hometown-eslint-config/packages/base)
-- 🚚 [@hometownjs/eslint-config-ts](https://github.com/HoMeTownJS/hometown-eslint-config/packages/ts)
-- 🚜 [@hometownjs/eslint-config-vue2](https://github.com/HoMeTownJS/hometown-eslint-config/packages/vue2)
-- 🚗 [@hometownjs/eslint-config-vue3](https://github.com/HoMeTownJS/hometown-eslint-config/packages/vue3)
+- 🚙 [@hometownjs/eslint-config](https://github.com/HoMeTownJS/hometown-eslint-config/tree/main/packages/default)
+- 🚐 [@hometownjs/eslint-config-base](https://github.com/HoMeTownJS/hometown-eslint-config/tree/main/packages/base)
+- 🚚 [@hometownjs/eslint-config-ts](https://github.com/HoMeTownJS/hometown-eslint-config/tree/main/packages/ts)
+- 🚜 [@hometownjs/eslint-config-vue2](https://github.com/HoMeTownJS/hometown-eslint-config/tree/main/packages/vue2)
+- 🚗 [@hometownjs/eslint-config-vue3](https://github.com/HoMeTownJS/hometown-eslint-config/tree/main/packages/vue3)
 
 ### Default 🚁
 
