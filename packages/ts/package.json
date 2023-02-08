@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/eslint-config-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HoMeTownJS's eslint config presets with prettier for TypeScript",
   "author": {
     "name": "HoMeTownJS",
@@ -20,7 +20,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "update-version": "bumpp package.json packages/*/package.json",
+    "publish-pkg": "pnpm -r publish --access public",
+    "release": "pnpm update-version && pnpm publish-pkg"
   },
   "dependencies": {
     "@hometownjs/eslint-config-base": "workspace:*",

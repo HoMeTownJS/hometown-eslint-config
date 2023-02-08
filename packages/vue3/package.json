@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/eslint-config-vue3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HoMeTownJS's eslint config presets with prettier for Vue3",
   "author": {
     "name": "HoMeTownJS",
