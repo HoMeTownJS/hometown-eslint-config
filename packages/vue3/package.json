@@ -1,6 +1,6 @@
 {
   "name": "@hometownjs/eslint-config-vue3",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "HoMeTownJS's eslint config presets with prettier for Vue3",
   "author": {
     "name": "HoMeTownJS",
@@ -20,7 +20,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "lint": "eslint . --config=index.js"
+    "lint": "eslint . --config=index.js",
+    "publish-pkg": "pnpm -r publish --access public"
   },
   "dependencies": {
     "@hometownjs/eslint-config-ts": "workspace:*",
