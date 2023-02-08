@@ -21,7 +21,7 @@
   },
   "scripts": {
     "lint": "eslint . --config=index.js",
-    "publish-pkg": "pnpm -r publish --access public"
+    "publish-pkg": "pnpm publish --access public"
   },
   "peerDependencies": {
     "eslint": ">=7.4.0"

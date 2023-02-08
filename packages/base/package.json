@@ -27,7 +27,7 @@
   },
   "scripts": {
     "lint": "eslint . --config=index.js",
-    "publish-pkg": "pnpm -r publish --access public"
+    "publish-pkg": "pnpm publish --access public"
   },
   "dependencies": {
     "@html-eslint/parser": "0.16.0",
