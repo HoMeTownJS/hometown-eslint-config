@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="156px" src="https://i.ibb.co/DCSdYrY/i-va-5.png" />
+  <img width="220px" src="https://github.com/HoMeTownJS/site/blob/main/public/images/logo-vertical.png?raw=true" />
 </p>
 <p align="center"><b>✨ @hometownjs/eslint-config-base 💥</b></p>
 <p align="center">HoMeTownJS's eslint config presets with prettier</p>
